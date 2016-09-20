@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tipLabel: UILabel!
+    @IBOutlet weak var totalLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onTap(_ sender: AnyObject) {
+        view.endEditing(true)
+    }
+    
+    @IBAction func calculateTip(_ sender: AnyObject) {
+        tipLabel.text = "$10.00"
+        totalLabel.text = "$110.00"
+    }
 
 }
 
