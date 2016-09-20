@@ -93,7 +93,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Settings"/>
                                 <connections>
-                                    <segue destination="fiF-Aa-gLI" kind="push" id="ey8-Xl-Dln"/>
+                                    <segue destination="fiF-Aa-gLI" kind="push" id="VJw-fp-y0c"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -137,11 +137,18 @@
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="changeTipDefault:" destination="fiF-Aa-gLI" eventType="valueChanged" id="GcR-z7-bL9"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="l1r-4e-nwt"/>
+                    <connections>
+                        <outlet property="defaultTip" destination="gy1-Gu-dEt" id="Awi-qI-b7n"/>
+                        <outlet property="defaultTipSettings" destination="gy1-Gu-dEt" id="zwc-Qt-7oX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbJ-yS-n5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
