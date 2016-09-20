@@ -103,6 +103,20 @@
             </objects>
             <point key="canvasLocation" x="675.5" y="154.5"/>
         </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="E2J-tz-1Fu">
+            <objects>
+                <viewController id="fiF-Aa-gLI" customClass="SettingsViewController" customModule="ios_tip_calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZBu-Hf-RHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kbJ-yS-n5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1212" y="155"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="odc-lR-DbJ">
             <objects>
