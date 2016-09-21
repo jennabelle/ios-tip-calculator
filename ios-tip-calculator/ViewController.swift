@@ -19,11 +19,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("view did Load")
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // set user-selected default tip when view first loads
+        tipControl.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "default_tip_index")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("view will appear")
+        
+        // set user-selected default tip when user navigates back to view
+        tipControl.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "default_tip_index")
+        
+        calculateTip(self)
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -17,6 +17,8 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // show user-selected default tip when view first loads
         defaultTipSettings.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "default_tip_index")
     }
 
