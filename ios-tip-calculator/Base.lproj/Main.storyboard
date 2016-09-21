@@ -141,7 +141,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="l1r-4e-nwt"/>
                     <connections>
-                        <outlet property="defaultTip" destination="gy1-Gu-dEt" id="Awi-qI-b7n"/>
                         <outlet property="defaultTipSettings" destination="gy1-Gu-dEt" id="zwc-Qt-7oX"/>
                     </connections>
                 </viewController>

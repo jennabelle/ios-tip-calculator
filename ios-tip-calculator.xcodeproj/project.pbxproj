@@ -48,7 +48,7 @@
 		A986FA9F1D91C93F009013F2 /* ios-tip-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-tip-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A986FAA31D91C93F009013F2 /* ios_tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_tip_calculatorUITests.swift; sourceTree = "<group>"; };
 		A986FAA51D91C93F009013F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9D378131D91E64C00A32BE2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A9D378131D91E64C00A32BE2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		A986FA771D91C93F009013F2 = {
 			isa = PBXGroup;
 			children = (
-				A9D378131D91E64C00A32BE2 /* SettingsViewController.swift */,
 				A986FA821D91C93F009013F2 /* ios-tip-calculator */,
 				A986FA971D91C93F009013F2 /* ios-tip-calculatorTests */,
 				A986FAA21D91C93F009013F2 /* ios-tip-calculatorUITests */,
@@ -101,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A986FA831D91C93F009013F2 /* AppDelegate.swift */,
+				A9D378131D91E64C00A32BE2 /* SettingsViewController.swift */,
 				A986FA851D91C93F009013F2 /* ViewController.swift */,
 				A986FA871D91C93F009013F2 /* Main.storyboard */,
 				A986FA8A1D91C93F009013F2 /* Assets.xcassets */,
