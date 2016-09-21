@@ -87,15 +87,10 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="axD-oy-do3">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" style="plain" id="F0x-YM-ChL">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2AA-bL-j6v">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Settings"/>
-                                <connections>
-                                    <segue destination="fiF-Aa-gLI" kind="push" id="VJw-fp-y0c"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="XNW-L7-8l6">
+                            <connections>
+                                <segue destination="fiF-Aa-gLI" kind="push" id="vzG-Jx-dE1"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
