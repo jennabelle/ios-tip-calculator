@@ -33,11 +33,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Had trouble navigating from `ViewController.swift` (for Tip View) to `SettingsViewController.swift`, exception stopped program flow. Specific error was:
+Had trouble navigating from `ViewController.swift` (Tip View) to `SettingsViewController.swift`, exception stopped program flow. Specific error was:
 
     'NSUnknownKeyException', reason: '[<UIViewController 0x3927310> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key defaultTip.'
 
-Googled & realized it was the outlets for `SettingsViewController.swift`. Deleted unnecessary `defaultTip` outlet and navigation worked perfectly. Need to figure out how to try-catch exceptions.
+Googled & realized it was the outlets for `SettingsViewController.swift`. Deleted unnecessary `defaultTip` outlet from Connections Inspector and navigation worked perfectly. Will need to figure out how to properly try catch exceptions.
 
 ## License
 
