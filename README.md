@@ -27,6 +27,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<span width="30px" height="30px"><img src="./ios-tip-calculator.gif"></span>
+
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
@@ -41,7 +43,7 @@ Googled & realized it was the outlets for `SettingsViewController.swift`. Delete
 
 ## License
 
-    Copyright [2016] [Jenna Vuong]
+    Copyright 2016 Jenna Vuong
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -57,5 +59,6 @@ Googled & realized it was the outlets for `SettingsViewController.swift`. Delete
 
 
 ## Tech Stack
-Swift 3
-XCode
+
+    Swift 3
+    XCode
