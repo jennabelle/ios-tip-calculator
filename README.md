@@ -29,8 +29,6 @@ Here's a walkthrough of implemented user stories:
 
 <span width="30px" height="30px"><img src="./ios-tip-calculator.gif"></span>
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
