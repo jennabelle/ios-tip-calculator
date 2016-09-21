@@ -37,11 +37,11 @@ Had trouble navigating from `ViewController.swift` (for Tip View) to `SettingsVi
 
     'NSUnknownKeyException', reason: '[<UIViewController 0x3927310> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key defaultTip.'
 
-Googled & realized it was the outlets for `SettingsViewController.swift`. Deleted unnecessary `defaultTip` outlet and navigation worked perfectly.
+Googled & realized it was the outlets for `SettingsViewController.swift`. Deleted unnecessary `defaultTip` outlet and navigation worked perfectly. Need to figure out how to try-catch exceptions.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Jenna Vuong]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
