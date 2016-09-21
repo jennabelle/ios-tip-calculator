@@ -1,6 +1,6 @@
-# Pre-work - *iOS Tip Calculator*
+# *iOS Tip Calculator*
 
-**iOS Tip Calculator** is a tip calculator application for iOS.
+**iOS Tip Calculator** is a tip calculator application for iOS with user-selected default settings.
 
 Submitted by: **Jenna Vuong**
 
