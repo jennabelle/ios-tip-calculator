@@ -136,30 +136,23 @@
                                     <action selector="changeTipDefault:" destination="fiF-Aa-gLI" eventType="valueChanged" id="GcR-z7-bL9"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eec-J0-NcG">
-                                <frame key="frameInset" minX="42" minY="189" width="54" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eec-J0-NcG">
+                                <frame key="frameInset" minX="42" minY="179" width="36" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="F4q-0b-0ea">
-                                <frame key="frameInset" minX="216" minY="186" width="121" height="29"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="BDZ-Oc-y4A">
+                                <frame key="frameInset" minX="288" minY="179" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Light"/>
-                                    <segment title="Dark"/>
-                                </segments>
-                                <connections>
-                                    <action selector="changeThemeDefault:" destination="fiF-Aa-gLI" eventType="valueChanged" id="PmV-xx-X9t"/>
-                                </connections>
-                            </segmentedControl>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="l1r-4e-nwt"/>
                     <connections>
-                        <outlet property="defaultThemeSettings" destination="F4q-0b-0ea" id="4iW-QC-swb"/>
+                        <outlet property="defaultThemeSetting" destination="BDZ-Oc-y4A" id="P6v-Zg-DYf"/>
                         <outlet property="defaultTipSettings" destination="gy1-Gu-dEt" id="zwc-Qt-7oX"/>
                     </connections>
                 </viewController>

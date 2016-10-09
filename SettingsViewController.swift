@@ -13,7 +13,7 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var defaultTipSettings: UISegmentedControl!
     
-    @IBOutlet weak var defaultThemeSettings: UISegmentedControl!
+    @IBOutlet weak var defaultThemeSettings: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class SettingsViewController: UIViewController {
         // show user-selected default tip when view first loads
         defaultTipSettings.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "default_tip_index")
         
-        defaultThemeSettings.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "default_theme_index")
+        defaultThemeSettings.isOn = UserDefaults.standard.bool(forKey: "default_theme_index")
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,9 +38,8 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func changeThemeDefault(_ sender: AnyObject) {
-        let default_theme_index = defaultThemeSettings.selectedSegmentIndex
         
-        UserDefaults.standard.set(Int(default_theme_index), forKey: "default_theme_index")
+        UserDefaults.standard.set(true, forKey: "default_theme_index")
     }
     /*
     // MARK: - Navigation
